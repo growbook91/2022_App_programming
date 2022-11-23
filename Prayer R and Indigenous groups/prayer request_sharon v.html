@@ -1,0 +1,106 @@
+<html>
+
+<head>
+    <title>Yasuni National Park</title>
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <link rel="stylesheet" type="text/css" href="animation.css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <header>
+        <div id="hd-menu">
+            <!-- this will linked to the hompage -->
+            <h1><a href="template.html">Yasuni National Park</a></h1>
+            <nav>
+                <span><a>About</a></span>
+                <span><a>Prayer requests</a></span>
+                <span><a>Menu3</a></span>
+            </nav>
+        </div>
+        <div id="hd-info">
+
+        </div>
+    </header>
+
+    <main>
+        <section id="first">
+            <div class="banner">
+                <h1 class="animated" style="font-family: 'Cinzel', serif;">Yasuni in our prayers: Prayer Requests</h1>
+            </div>
+        </section>
+
+        <section>
+			
+            <div class="content">
+                <h1 class= "animated"> 1.Protection for Tagaeri and Taromenane groups</h1>
+                <img class="animated" src="./images/prayer_01.jpg">
+                <p class="animated"> The indigenous groups living in the Yasuni National Park territory are in constant danger and do not deserve to live
+				in such unstable environment. The oil companies threat does not only out their natural resources and agricultural goods in danger; it also
+				puts these indegenous people's health and life span in danger. The side effects of oil liking on the soil and water has more consequences that
+				we can imagine. We pray that God will protect these people and do justice to their cause and keep the most vulnerable groups in this community 
+				(children, pregnant women and the elderly) physically and mentally healthy.<br>
+				Also, because of the lack of resources and limited contact with the outside world, treating diseases and secondary effects caused by oil pollution 
+				is especially hard. Prayer for medical help and regular check-ups is high;y needed, as well.
+				</p>
+            </div>  
+        </section>
+        <section>
+            <div class="content">
+                <h1 class= "animated"> 2. Discernment for the Ecuadorian government</h1>
+                <img class="animated" src="./images/prayer_02.jpg">
+                <p class="animated">The Ecuadorian government plays a big role in the future of these indegenous groups. Therefore, prayer for wisdom for the 
+				Ecuadorian authorities involved in this situation is needed. To pray for justice for the people who lost their land and cultural inheritance since that is
+				their righteous propeerty and everything they have.<br>
+				Also we pray that Ecuadorian authorities will not be driven by their economic interests and ambition but for a moral nad enviromental responsability. As fellow
+				Ecuadorian, protecting our people's interests and rights should be everyone's goal. So, prayer for a united national spirit that seeks the well-being and
+				protection of the Tagaeri and Taromenane people groups.</p>
+            </div>  
+        </section>
+        <section>
+			
+            <div class="content">
+                <h1 class= "animated"> Healing for the nature</h1>
+                <img class="animated" src="./images/prayer_03.jpg">
+                <p class="animated">The enviromental impact that oil  exploitation has on the Ecuadorian rain forest could be more serious that people imagine. Exotic species of plants
+				and animals could disspaear forever in human intervention keeps spreading in the Yasuni territory. We ask for prayer to preserve God's wonderful creation in this land and
+				all the precious creatures and plants that inhabit in there. All the toxic substances and chemicals contained in oil leakings have been causing mutations and malformations
+				in endemic species. This meaning, several species are in danger of becoming extinct because of this issue. <br>
+				May God purify the soil and move people to take action in the protection of Yasuni National Park for the future generations and the natural legacy to the world.</p>
+            </div>  
+        </section>
+
+
+
+    </main>
+    <footer>
+        <span>Sharon Vega</span>
+        <!-- <span>Kangmin Lee</span> -->
+    </footer>
+    <script>
+        // This code is related when the animation would be occured.
+        const options = {
+            root: null, // viewport
+            rootMargin: "0px",
+            threshold: 1.0,  
+            // How much the element shows on the screen. 
+            // In this case 100%. You can change this value.
+        }
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('slideUp');
+                }
+            });
+        }, options);
+
+        // Adhere "slideUp" class to the all elements which haved class named "animated".
+        const animatedList = document.querySelectorAll('.animated');
+
+        animatedList.forEach(el => observer.observe(el));
+    </script>
+</body>
+
+</html>

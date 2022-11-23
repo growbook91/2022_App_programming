@@ -1,0 +1,39 @@
+
+.animated{
+    visibility: hidden;
+}
+/* text sliding up animation */
+.slideUp {
+    animation-name: slideUp;
+    animation-duration: 1s;
+    visibility: visible;
+}
+
+/* this is for chrome */
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+/* this is for safari */
+@-webkit-keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+
+
