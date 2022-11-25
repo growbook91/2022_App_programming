@@ -45,7 +45,7 @@
 .show {
     visibility: visible;
     animation-name: show;
-    animation-duration: 2s;
+    animation-duration: 1s;
 }
 
 /* this is for chrome */

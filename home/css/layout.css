@@ -181,7 +181,9 @@ div.banner {
     /* cross axis alignment */
     align-items: center;
 }
-
+div.banner h1{
+    font-size: 500%;
+}
 
 /* footer section */
 footer {
