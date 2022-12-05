@@ -18,7 +18,7 @@ h1{
 
 /*donation box css*/
 #donorbox{
-    text-align: center; border-style:solid; border-width:4px; border-color:green; padding:10px; 
+    text-align: center; border-style:solid; border-width:4px; border-color:green; padding:8px; 
     width:50%; color:white; margin: 0 auto;
 }
 
@@ -33,7 +33,7 @@ div.register{
 	color: white;
 }
 form#register{
-	margin: 40px;
+	margin: 30px;
 }
 label{
 	font-family:'EB Garamond', serif;
