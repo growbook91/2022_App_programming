@@ -19,12 +19,12 @@ body {
     top: 0;
     left: 0;
     right: 0;
+    font-weight: bold;
 
     height: 75px;
     padding: 20px;
     color: white;
     background-color: transparent;
-    font-weight: bold;
     /* You MUST use this property if you want to align elements easily. */
     display:flex;
     /* main axis alignment */
@@ -34,23 +34,7 @@ body {
 }
 
 
-#hd-info{
-    height: 0%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    z-index: 2;
-    background-color: rgba(255, 255, 255, 0.1);
-    opacity: 0;
-    transition: height 1s, opacity 1s;
-}
 
-header:hover #hd-info{
-    height: 50%;
-    opacity: 1; 
-}
 
 
 header a {
