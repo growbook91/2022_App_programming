@@ -29,52 +29,50 @@
       
     </head>
     <body>
-      <header class="navbar-light navbar-sticky header-static">
-        <!-- Logo Nav START -->
-        <nav class="navbar navbar-expand-lg">
-          <div class="container">
-            <!-- Logo START -->
-            <a class="navbar-brand" href="home.html">
-              <img src="assets/images/logo.png"  alt="logo">			
-            </a>
-            <!-- Logo END -->
-
-          <!-- Responsive navbar toggler -->
-          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="text-body h6 d-none d-sm-inline-block">Menu</span>
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <!-- Main navbar START -->
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-              <!-- Nav item 1 About-->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="home.html" id="homeMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-                <ul class="dropdown-menu" aria-labelledby="homeMenu">
-                  <li> <a class="dropdown-item" href="introduction.html">Introduction</a></li>
-                  <li> <a class="dropdown-item" href="yasunigroups.html">Indigenous groups</a></li>
-                  <li> <a class="dropdown-item" href="exotic_species.html">Exotic species</a></li>
-                  <li> <a class="dropdown-item" href="main_threat.html">Main threats</a></li>
-                </ul>
-              </li>
-              <!-- Nav item 2 Donation -->
-              <li class="nav-item"> <a class="nav-link" href="donation.html">Donation</a></li>
-
-              <!-- Nav item 3 Prayer -->
-              <li class="nav-item"> <a class="nav-link" href="prayer.html">Prayer</a></li>
-
-              <!-- Nav item 4 Our team -->
-              <li class="nav-item active" > <a class="nav-link" href="OurTeam.html">Our team</a></li>
-            </ul>
-          </div>
+      <header>
+        <!-- Nav START -->
+        <nav class="navbar navbar-expand-lg" id="hd-menu" >
+            <div class="container-fluid">
+               <!-- Logo -->
+              <a class="navbar-brand" href="home.html">
+                <img src="assets/images/logo_black.png" alt="logo">			
+              </a>
+                    
+                <!-- Main navbar START -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav navbar-nav-scroll ms-auto">
+                      
+    
+                    <!-- Nav item 1 About-->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="home.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >About</a>
+                        <ul class="dropdown-menu"  aria-labelledby="navbarDropdown">
+                          <li> <a class="dropdown-item" href="introduction.html" >Introduction</a></li>
+                          <li> <a class="dropdown-item" href="yasunigroups.html">Indigenous groups</a></li>
+                          <li> <a class="dropdown-item" href="exotic_species.html">Exotic species</a></li>
+                          <li> <a class="dropdown-item" href="main_threat.html">Main threats</a></li>
+                        </ul>
+                      </li>
+                    </div>
+    
+                <!-- Nav item 2 Donation -->
+                <li class="nav-item"> <a class="nav-link" href="donation.html" >Donation</a></li>
+    
+                <!-- Nav item 3 Prayer -->
+                <li class="nav-item"> <a class="nav-link" href="prayer.html" >Prayer</a></li>
+    
+                <!-- Nav item 4 Our team -->
+                <li class="nav-item" > <a class="nav-link" href="ourTeam.html" >Our team</a></li>
+            </div>
         </nav>
-    </header>
+      </header>
+    
 
         <!-- **************** MAIN CONTENT START **************** -->
         <main>
             <!--our team box-->
-            <section class="pt-4">
+            <section style="margin-top: 25px">
                 <div class="container">
                     <div class="row">
                   <div class="col-12">
@@ -204,6 +202,16 @@
                     </div>
                   </div>
               <a href="ourTeam.html"><img id="topIcon" src="assets/images/topicon_black.png"></a>
+              <!-- Bootstrap JS -->
+      <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+      <!-- Vendors -->
+      <script src="assets/vendor/tiny-slider/tiny-slider.js"></script>
+      <script src="assets/vendor/sticky-js/sticky.min.js"></script>
+      <script src="assets/vendor/glightbox/js/glightbox.js"></script>
+  
+      <!-- Functions -->
+      <script src="assets/js/functions.js"></script>
                 
             </section>
             

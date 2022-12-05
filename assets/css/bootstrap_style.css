@@ -89,6 +89,29 @@
   text-align: center;
 }
 
+#hd-menu {
+  /* it makes menu always located above all contents */
+  z-index: 2;
+
+  /* position option makes header always located at the top position */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-weight: bold;
+
+  height: 75px;
+  padding: 20px;
+  color: white;
+  background-color: transparent;
+  /* You MUST use this property if you want to align elements easily. */
+  display:flex;
+  /* main axis alignment */
+  justify-content: space-between;
+  /* cross axis alignment */
+  align-items: center;
+}
+
 
 
 @media (prefers-reduced-motion: no-preference) {

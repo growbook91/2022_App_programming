@@ -22,10 +22,10 @@ body {
     right: 0;
 
     height: 75px;
-    padding: 20px;
-    color: white;
-    background-color: transparent;
+    padding: 50px;
     font-weight: bold;
+
+    background-color: transparent;
     /* You MUST use this property if you want to align elements easily. */
     display: flex;
     /* main axis alignment */

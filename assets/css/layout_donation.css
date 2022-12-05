@@ -19,12 +19,11 @@ body {
     top: 0;
     left: 0;
     right: 0;
-
-    height: 80px;
-    padding: 10px;
+    font-weight: bold;
+    height: 70px;
+    padding: 20px;
     color: white;
     background-color: transparent;
-    font-weight: bold;
     /* You MUST use this property if you want to align elements easily. */
     display: flex;
     /* main axis alignment */
